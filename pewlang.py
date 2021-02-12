@@ -13,16 +13,7 @@ Syntax = {
 }
 
 # Reverse-Definintions
-ReverseSyntax = {
-    'pew': ">",
-    'Pew': "<",
-    'pEw': "+",
-    'peW': "-",
-    'PEw': ",",
-    'pEW': ".",
-    'PeW': "[",
-    'PEW': "]",
-}
+ReverseSyntax = {v: k for k, v in Syntax.items()}
 # Main code
 if sys.argv[1] == "decode":
     pew = open(sys.argv[2], "rt", encoding="utf8").read()
