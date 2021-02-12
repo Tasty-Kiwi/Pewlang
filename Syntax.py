@@ -1,4 +1,4 @@
-BRAINF = [
+BRAINF = (
     '>',
     '<',
     '+',
@@ -7,9 +7,9 @@ BRAINF = [
     '.',
     '[',
     ']'
-]
+)
 
-CUSTOM_LANG = [
+CUSTOM_LANG = (
     "pew",
     "Pew",
     "pEw",
@@ -18,4 +18,4 @@ CUSTOM_LANG = [
     "pEW",
     "PeW",
     "PEW"
-]
+)
