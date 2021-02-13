@@ -1,4 +1,4 @@
-BRAINF = (
+BRAINF = (  # You shouldn't touch this tuple
     '>',
     '<',
     '+',
@@ -10,12 +10,12 @@ BRAINF = (
 )
 
 CUSTOM_LANG = (
-    "pew",
-    "Pew",
-    "pEw",
-    "peW",
-    "PEw",
-    "pEW",
-    "PeW",
-    "PEW"
+    "pew",  # >
+    "Pew",  # <
+    "pEw",  # +
+    "peW",  # -
+    "PEw",  # ,
+    "pEW",  # .
+    "PeW",  # [
+    "PEW"   # ]
 )
